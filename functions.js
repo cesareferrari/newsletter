@@ -91,3 +91,25 @@ console.log(ninja);
 
 
 
+// this and arguments
+
+function myHouse(address) {
+  console.log("Address:\n", address);
+  console.log("this parameter:\n", this);
+  console.log("arguments parameter:\n", arguments);
+}
+
+myHouse('123 Main st.');
+
+
+
+function myAddress(number, street, city) {
+  console.log("arguments parameter length:", arguments.length);
+  console.log("arguments[0]", arguments[0]);
+  console.log("arguments[1]", arguments[1]);
+  console.log("arguments[2]", arguments[2]);
+  console.log("arguments[2]", arguments[3]);
+}
+
+myAddress(123, 'Main St.', 'Anytown', 'second floor');
+
