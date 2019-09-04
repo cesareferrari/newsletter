@@ -113,3 +113,15 @@ function myAddress(number, street, city) {
 
 myAddress(123, 'Main St.', 'Anytown', 'second floor');
 
+
+
+const justSay = argument => argument;
+console.log(justSay("hello"));
+
+
+const sayAgain = () => "Hello with no argument";
+console.log(sayAgain());
+
+
+const sayOnceMore = (greeting, name) => `${greeting}, ${name}`;
+console.log(sayOnceMore("Hi", "Mary"));

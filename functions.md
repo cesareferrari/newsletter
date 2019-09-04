@@ -2,60 +2,6 @@
 
 
 
-
-
-
-## Arrow functions (also called lambda functions).
-
-Arrow functions are an ES6 addition to the Javascript standard.
-
-Arrow functions have a shorter, more compact syntax than regular functions.
-
-```
-(argument) => { return argument; }
-```
-
-Here's an example of an arrow function passed to the sort() method of an array to
-determine the sort order.
-The syntax is more succinct than if we wrote a function expression.
-
-```
-var values = [0, 3, 2, 5, 7, 4, 8, 1];
-
-values.sort((value1, value2) => value1 - value2);
-```
-
-
-## Function constructors
-
-Enables us to dynamically construct a new function from a string that can also
-be dynamically generated.
-
-```
-const sum = new Function('a', 'b', 'return a + b');
-console.log(sum(10, 45));
-```
-
-## Generator Functions
-
-We can create functions that can be exited and re-entered later in the
-application execution while keeping the value of their variables across these
-re-entrances.
-
-We can define generator versions of function declarations, function expressions
-and function constructors.
-
-```
-function* myGen() { yield 1; }
-```
-
-
-
-
-
-
-
-
 ## Function parameters and arguments
 
 Functions can have parameters, that is, values passed in for the function to
