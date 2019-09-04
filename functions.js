@@ -125,3 +125,24 @@ console.log(sayAgain());
 
 const sayOnceMore = (greeting, name) => `${greeting}, ${name}`;
 console.log(sayOnceMore("Hi", "Mary"));
+
+
+
+function animalSound() {
+  return "Bark";
+}
+
+console.log(animalSound());
+
+const sound = function() { return "Moo" };
+console.log(sound());   // => "Moo"
+
+
+(function() { 
+  console.log(this);
+  return "Meow"
+})();
+
+
+
+
