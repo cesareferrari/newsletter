@@ -146,3 +146,43 @@ console.log(sound());   // => "Moo"
 
 
 
+
+// Functions as methods
+
+const person = {
+  name: 'John',
+  age: 50
+}
+
+person.ability = function () {
+  console.log(this);  // => { name: 'John', age: 50, ability: [Function] }
+
+  return 'I can play the piano';
+}
+
+console.log(person.ability()); // => I can play the piano
+
+
+
+const myAbility = function (ability) {
+  console.log(this);
+  return `I can ${ability}`;
+}
+
+const mary = {
+  name: 'Mary',
+  ability: myAbility
+}
+
+const pedro = {
+  name: 'Pedro',
+  ability: myAbility
+}
+
+
+mary.ability('play the piano');
+pedro.ability('eat hot dogs');
+
+
+
+
