@@ -186,3 +186,13 @@ pedro.ability('eat hot dogs');
 
 
 
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+const bill = new Person('William', 59);
+console.log(bill);
+
+const maryann = new Person('Mary Ann', 49);
+console.log(maryann);
