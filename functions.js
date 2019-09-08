@@ -196,3 +196,30 @@ console.log(bill);
 
 const maryann = new Person('Mary Ann', 49);
 console.log(maryann);
+
+
+// call, apply
+
+const pugliese = {
+  name: 'Pane pugliese',
+  description: 'Round and crunchy'
+}
+
+const focaccia = {
+  name: 'Focaccia',
+  description: 'Soft and flat'
+}
+
+function bake() {
+  console.log(arguments);
+  console.log("'this' is:", this);
+}
+
+bake.call(pugliese, 'water', 'flour', 'salt');
+bake.apply(focaccia, ['oil', 'water', 'flour', 'salt']);
+
+
+
+
+
+
