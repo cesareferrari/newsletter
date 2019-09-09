@@ -1,6 +1,6 @@
 # Cesare's Newsletter
 
-This repository contains posts and other material for my
-[Substack newsletter](https://cesare.substack.com/publish/post/?type=newsletter)
+Quick daily articles about programming and web development delivered to your
+inbox every morning.
 
-
+[Subscribe here](https://cesare.substack.com/)
