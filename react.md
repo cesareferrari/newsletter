@@ -1,64 +1,7 @@
 # React
 
 
-
-## create-react-app
-
-create-react-app is a library that sets up a scaffolding for creating a React
-application from scratch.
-
-The homepage of the project is https://github.com/facebook/create-react-app
-
-A module like create-react-app sets up the environment to develop and run a
-React application. It creates a project directory and sets up a package.json
-file with all the required dependencies, including Babel as the transpiler.
-
-create-react-app sets up are tools like react-script that do the transpiling automatically.
-
-create-react-app is an npm module that creates the whole scaffolding for a React application.
-
-We create a React application by running this command, where app-directory is
-the name of the directory that contains our application.
-
-```
-npx create-react-app app-directory
-```
-
-Running this command creates a directory, a package.json file inside of it, download all the necessary npm modules and add a start script that we can use to start the React application.
-
-When can run the start script either with npm or yarn, from inside the project
-directory.
-
-```
-npm start
-
-// or 
-
-yarn start
-```
-
-The application will be started and automatically served on port 3000, so we can view the application skeleton at the localhost:3000 address in our browser.
-
-Tomorrow we will explore the skeleton application created by create-react-app.
-
-
----
-
-
-
 ## React components
-
-Create-react-app creates a directory structure with a public directory  and a src directory.
-
-Within the public directory there's an index.html file that is used as the entry point of our application.
-
-index.html contains a div element with an id of root that functions as the mount point for the React application.
-
-The whole React application will be contained within this html element, and as
-we will see, it will be built up of many components.
-
-
-Components
 
 Components are the basic blocks of React. At their core, components are just Javascript functions or classes that have one thing in common, they all return JSX.
 
