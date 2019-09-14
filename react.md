@@ -529,5 +529,142 @@ our state is updated and the input field reflects those changes.
 Each letter typed into the field is added to the state incrementally and the field gets updated because of the React re-render triggered by setState().
 
 
+Now that we have the input field update itself, we need to submit the form and
+add a new student. To submit the form we add a button:
+
+```
+  <button>Add Student</button>
+```
+
+If we press the button now, nothing happens. Actually something happens and it's
+that the page gets refreshed. This is because the default behavior of a web
+browser after clicking a button is to refresh the page.
+
+We don't really want this to happen, though. We want to be able to add a student
+without refreshing the whole page. So, what we need to do is capture the event
+generated when the button is pressed, we want to avoid the default action to
+happen, and we want to add a student with the name we have entered into the
+input field.
+
+To do this we need an event handler on the button, the same way we added an
+event handler on the input field.
+
+We call this event handler addStudentHandler and we add it to the onClick
+property of the button, because we are capturing the click event.
+
+```
+<button onClick={this.addStudentHandler}>Add Student</button>
+```
+Now we need to add a new addStudentHandler() function to the class.
+The first thing we want to do is prevent the default action of refreshing the
+page. To do this we take the event that's generated on click and prevent its
+default behavior by calling preventDefault on it.
+
+```
+addStudentHandler = event => {
+  event.preventDefault();
+}
+```
+
+The next thing we want to do is update the state of the application because we
+are adding something to it.
+We update the state with the setState() function and we pass into setState a new
+state object that merges what is currently in the state and the new thing we are
+adding.
+
+So, we first define a newStudent and assign to its name the value of state.name.
+This is the value that is updated by the changeHandler function that takes its
+value from the input field.
+
+We then call setState and add the new student to the state.
+
+```
+  let newStudent = {
+    name: this.state.name
+  }
+
+  this.setState(
+    {
+      students: [...this.state.students, newStudent]
+    }
+  )
+```
+
+Notice that we need to keep the state object immutable, so instead of updating
+the current state object we create a new array, add the current state to it and
+add the new student.
+
+We use the spread operator (...) to add all the elements in the current students
+array to the new state object and we add the new student to the end of the
+array.
+
+So, the state gets a brand new array, populated with the current students and
+the new student we are adding.
+
+If we now add a new student name and submit the form, the new student object is
+added to the end of the array and displayed in the page.
+
+We need to add more input fields to update other properties of the student, like
+age, bestIn, and so on.
+Let's add the input for age:
+
+```
+  <input
+    type="text"
+    value={this.state.age}
+    placeholder="age"
+    name="age"
+    onChange={this.changeHandler}
+  />
+```
+At this point we encounter a couple of problems. 
+One problem is that we don't have the age property on the state yet, so we add
+it.
+
+The second problem is that when we change the value in the age input field, we
+are calling the same changeHandler function we call when we update the name
+input field.
+
+```
+  changeHandler = event => {
+    this.setState({ name: event.target.value });
+  }
+
+```
+
+The changeHandler function changes the state, but the new state has the 
+event target value update only the name property of the student.
+But we need to update the age, so we need to find a different way to do it.
+
+The way we do it is instead of hardcoding those properties we use the event
+target property corresponding to what we want to update.
+
+In our case, the input field has a property called name, that is unique for each
+input. We can capture the value of this property in event.target.name and use
+this to name our state property to update.
+
+In order to evaluate the target name, we need to enclose the expression in
+square brackets.
+
+
+```
+  changeHandler = event => {
+    this.setState({ [event.target.name]: event.target.value });
+  }
+```
+
+With this change, the changeHandler function is able to update the state
+correctly by updating either state.name or state.age as appropriate.
+
+At this point we can add the rest of the inputs. We also need to update the
+addStudentHandler function to add the additional properties and the state of the
+class with all the properties required.
+
+
+
+
+
+
+
 
 [ Video class components, min: 44:17 ]
