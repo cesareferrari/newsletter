@@ -2,14 +2,13 @@
 
 
 ## React components
+## How to build functional components in React.
 
 Components are the basic blocks of React. At their core, components are just Javascript functions or classes that have one thing in common, they all return JSX.
 
-Of course there's more to that, and we will look at components in more detail
-later, but this is the main concept to remember at the moment.
+Of course there's more to that, and we will look at components in more detail later, but this is the main concept to remember at the moment.
 
-As I said, components can be either Javascript function or classes. If a
-components is made out of a function it's called functional component.
+As I said, components can be either Javascript function or classes. If a components is made out of a function it's called a functional component.
 
 Let's see what a functional component looks like by creating one.
 
@@ -18,9 +17,7 @@ Note that the variable name used to initialize the component is capitalized. Com
 
 The variable is assigned a function, in this case an arrow function, that returns a <button> element with some text in it.
 
-Note that we are using an arrow function but we could have used a regular
-function. The convention in React is to use arrow functions, though, so we will
-stick with the convention.
+Note that we are using an arrow function but we could have used a regular function. The convention in React is to use arrow functions, though, so we will stick with the convention.
 
 ```
 const BasicButton = () => {                  
@@ -30,34 +27,51 @@ const BasicButton = () => {
 }                                            
 ```
 
-Note that the <button> syntax resembles HTML, but it's actually JSX. We are
-writing JSX inside a Javascript file, and since we have imported React at the
-top, the JSX is transpiled down to Javascript and HTML before it's passed to the
-browser, and it all works smoothly.
+Note that the <button> syntax resembles HTML, but it's actually JSX. We are writing JSX inside a Javascript file, and since we have imported React at the top of the file, the JSX is transpiled down to Javascript and HTML before it's passed to the browser, and it all works smoothly.
 
 To use the component we have just created, we need to add it somewhere, but where?
 
-If you remember, previously I mentioned that create-react-app creates two
-directories inside our project, a public directory and a src directory.
+If you remember, in a previous article I mentioned that create-react-app creates two directories inside our project, a public directory and a src directory.
 
-The public directory has an index.html file that is the entry point of our
-application. The React application is mounted inside a div element inside this
-index.html file.
+The public directory has an index.html file that is the entry point of our application. The React application is mounted inside a div element inside this index.html file.
 
-What is mounted inside the root element, is an App object, defined in the App.js
-file inside the src directory.
+What is mounted inside the root element, is an App object, defined in the App.js file inside the src directory.
 The App.js file looks like this:
 
+```
+function App() {
+  return (
+    <div className="App">
+      <h1>Students</h1>
+      <Students />
+    </div>
+  );
+}
+```
 
-[Continue here]
-
-
- we add it inside the main function of the React app, with
-this syntax and React will render it appropriately:
+We can add our new BasicButton component inside the App component, and it will
+be rendered in the page.
 
 ```
-<Button />
+<div className="App">
+  <h1>Students</h1>
+  <Students />
+
+  // Rendering the BasicButton component
+  <BasicButton />
+
+</div>
 ```
+In this article we have seen how to create a functional component and how to
+include it into our application.
+
+There is another type of component, the class component, but before talking
+about class components we need to talk about another important feature of React:
+the way it manages state.
+
+
+---
+
 
 
 ## React and state
@@ -424,4 +438,96 @@ this.state.myStudents.map( student => {
 ```
 
 
-[ Video class components, min: 18:00 ]
+
+
+
+
+
+---
+
+# Updating state in a class component
+
+Add form:
+
+```
+          <input
+            type="text"
+            value=""
+            placeholder="name"
+            name="name"
+            onChange={this.changeHandler}
+          />
+```
+We add an onChange event handler and we set it to this.changeHandler.
+
+changeHandler is a function that is defined in the class in this way:
+
+onChange will pass the event to the changeHandler function, and we capture it in
+the e argument.
+onChange is a synthetic event used by React. It's not a regular Javascript event
+handler.
+
+
+```
+  changeHandler = e => {
+    console.log(e); // prints out the Syntetic event generated when input changes
+    console.log(e.target); // prints out the event target, which is the input field.
+    console.log(e.target.value);
+  }
+```
+
+For now we only print out in the console the syntetic event that's generated
+when something changes in the input field and the target.
+
+If you type in a letter and look at the console, you can see the event being
+printed out.
+You also see that the target is the input field itself.
+
+The input field has a value property and it's accessible by e.target.value
+The value is what we type in.
+
+
+```
+changeHandler = e => {
+  this.setState({ name: e.target.value });
+}
+```
+The value is important because we want to capture the value and update the state
+with it.
+Our input field has a property on it named name and we need to capture the state
+of this property, that is the data that is passed in.
+
+In order to do that, we need to initialize the name value in our state in the
+constructor function of out class component:
+
+
+```
+    this.state = {
+      students,
+      name: ''
+    }
+```
+
+We also need to update the name property of our input field with the state.name
+property. We just assign this.state.name to the value property like so:
+
+```
+  <input
+    type="text"
+    value={this.state.name}  // update the value from the state
+    placeholder="name"
+    name="name"
+    onChange={this.changeHandler}
+  />
+```
+
+When we call setState() we update the value of the state and also trigger a
+re-render of the application.
+
+Now if we look at the console while typing in the input field we can see that
+our state is updated and the input field reflects those changes.
+Each letter typed into the field is added to the state incrementally and the field gets updated because of the React re-render triggered by setState().
+
+
+
+[ Video class components, min: 44:17 ]
