@@ -2,7 +2,7 @@ https://unsplash.com/photos/vpR0oc4X8Mk
 
 
 ## React components and state
-How to define components in React
+A quick discussion of state and components in React
 
 
 React is a way to manage state in a complex application. Today's web applications tend to become very complex very fast.
