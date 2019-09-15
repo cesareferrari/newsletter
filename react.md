@@ -593,8 +593,64 @@ class with all the properties required.
 
 
 
+## Break the component into its own StudentForm component
+
+The Students components is doing too much at the moment. It keeps the state of
+the application, it displays a list of students and it dispays a form to add a
+student.
+
+We want to remove the form from Students component and put it into its own
+StudentForm component.
+
+In place of the form, we add the new component in Students, after having
+imported it..
+
+```
+import StudentForm from './StudentForm';
+
+// ...
+
+<StudentForm />
+```
+
+This will give an error, since we don't have state in StudentForm. The state is
+in Students. So, we need to pass the state from Students to its child component
+StudentForm.
+
+Not only the state, we also need to pass the functions that we have defined to
+handle the form updates.
+
+```
+<StudentForm
+  addStudentHandler={this.addStudentHandler}
+  changeHandler={this.changeHandler}
+  name={this.state.name}
+  age={this.state.age}
+  photoUrl={this.state.photoUrl}
+  bestIn={this.state.bestIn}
+/>
+```
+
+This state and functions are passed to the StudentForm components as props, so
+in the form component we have to reference them as prop.
+
+```
+<form>
+  <input 
+    type="text"
+    name="name"
+    placeholder="Name"
+    value={props.name}
+    onChange={props.changeHandler}
+  />
+```
+
+Once all these changes are made, our application should work again like before,
+we should be able to add a new student.
 
 
 
 
-[ Video class components, min: 44:17 ]
+
+
+[ Video class components, min: 1:30:00 ]
