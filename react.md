@@ -1,14 +1,9 @@
 # React
 
+## How to update class component state from an input field
 
 
-
-
-
-
----
-
-# Updating state in a class component
+## Updating state in a class component
 
 Add form:
 
