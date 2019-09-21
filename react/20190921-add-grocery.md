@@ -35,13 +35,13 @@ value from the input field.
 We then call setState() passing this new object and add the new grocery item to the state.
 
 ```
-  let newGrocery = {
-    name: this.state.name
-  }
+let newGrocery = {
+  name: this.state.name
+}
 
-  this.setState(
-    { groceries: [...this.state.groceries, newGrocery] }
-  )
+this.setState(
+  { groceries: [...this.state.groceries, newGrocery] }
+)
 ```
 
 Notice that in React we need to keep the state object immutable, so instead of updating the current state object we set groceries to a new array. We then add the current state to this new array using the spread (...) operator, and finally append the new grocery item at the end of the array.
