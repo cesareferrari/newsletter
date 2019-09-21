@@ -435,4 +435,4 @@ we should be able to add a new student.
 
 
 
-[ Video class components, min: 1:30:00 ]
+[ Video Class components II, min: 24:30 ]
