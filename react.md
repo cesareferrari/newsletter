@@ -1,7 +1,5 @@
 # React
 
-## How to update class component state from an input field
-
 
 ## Updating state in a class component
 
@@ -277,8 +275,3 @@ Once all these changes are made, our application should work again like before,
 we should be able to add a new student.
 
 
-
-
-
-
-[ Video Class components II, min: 24:30 ]
