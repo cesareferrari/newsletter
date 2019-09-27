@@ -1,0 +1,57 @@
+# How to specify the shape of an object with PropTypes
+## With PropTypes we can also check the inner structure of objects
+
+Yesterday we learned how the PropTypes library helps us check the types of objects we pass to React components through the props.
+
+For example, this code makes sure the object pokemons is an array of objects:
+
+```
+Pokemons.propTypes = {
+  pokemons: PropTypes.arrayOf(PropTypes.object)
+}
+```
+
+If we accidentally pass pokemons as an array of other types, like an array of strings for example, we get a warning in the Javascript console and we can fix the error.
+  
+PropTypes lets us go further, though. It lets us describe in detail the inner structure of an object, what is called the shape of an object. This makes our data validations more thorough and accurate.
+
+The way we do this deep validation is by using the shape() method of PropTypes.
+shape() takes an object and validates the types inside the object.
+
+Here's an example:
+
+```
+Pokemon.propTypes = {
+  pokemon: PropTypes.shape({
+    name: PropTypes.string,
+    id: PropTypes.number,
+    base_stamina: PropTypes.number,
+    base_defense: PropTypes.number
+  })
+}
+```
+
+Here we validate that the pokemon object has a name of type string, and id, base_stamina and base_defense of type number.
+
+If the object we pass into our props has one of these properties wrong, we will get a warning, even though Javascript would be happy to accept a string in place of a number type.
+
+Required properties 
+
+Sometimes we need to pass props objects that have some required properties and some optional ones.
+
+PropTypes helps us in this case as well by specifying which property is required and raising a warning if it's not present.
+ 
+To perform this check we simply add isRequired at the end of the property type, like so:
+
+```
+Pokemon.propTypes = {
+  pokemon: PropTypes.shape({
+    name: PropTypes.string,
+    id: PropTypes.number.isRequired  // required property
+  })
+}
+```
+
+We may not feel the need to use PropTypes every single time, but when our project grows and becomes complex PropTypes sure helps avoid bugs that could become difficult to track down.
+
+If you like this article and want to receive more in your inbox, just click the button below to sign up for a free subscription.
