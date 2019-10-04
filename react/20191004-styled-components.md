@@ -14,7 +14,7 @@ This works differently from ReactStrap, in the way that it lets you define your 
 To use Styled Components we first need to install the library with this syntax:
 
 ```
-npm install --save styled-components
+npm install styled-components
 ```
 
 Then we need to import it into the file where Styled Components are defined:
