@@ -60,6 +60,21 @@ Promises solve many of the problems callbacks have.
 
 We will look at how promises work in the next article.
 
+In summary:
+
+When we access external data from an API server there may be delays because of
+latency
+
+Since Javascript functions are synchronous, waiting for an external server to
+respond may lock up our interface
+
+One common solution to this problem is to defer the potentially slow operation
+to a callback that can return its response later
+
+Callbacks can become unwieldy if they need to be nested.
+
+The preferred solution in React is to use Promises
+
 ---
 
 I write daily about web development. If you like this article, feel free to share it with your friends and colleagues. 
