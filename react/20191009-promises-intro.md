@@ -1,4 +1,4 @@
-# Ways to load data from external API in React
+# Some ways to load data from external API in React
 ## Why we use Promises when we access external data
 
 In modern web applications we often need to grab data from external API servers and display it in our own application.
@@ -59,4 +59,11 @@ It just becomes too complicated to keep track, hard to read and prone to bugs.
 Promises solve many of the problems callbacks have.
 
 We will look at how promises work in the next article.
+
+---
+
+I write daily about web development. If you like this article, feel free to share it with your friends and colleagues. 
+
+You can receive articles like this in your inbox by subscribing to this newsletter. Just click the button below to sign up for a free subscription.
+
 
