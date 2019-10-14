@@ -3,6 +3,12 @@
 ## How to update component state from a form input field
 
 
+How to update component state from a form input field in React #react #javascript
+
+
+
+
+
 We have seen yesterday how to set up a basic form to collect item data that will be sent to a remote API via a POST request so it can create a new item in a resouce collection.
 
 The form we set up was so basic that it didn't even have fields in it, just the form skeleton and a submit button.
@@ -126,18 +132,17 @@ The reason is that by using [event.target.name] we are not tied to one specific 
 So, when we have input fields that say:
 
 ```
-<input neme="description" />
+<input name="description" />
 
 ```
 
 or 
 
 ```
-<input neme="price" />
+<input name="price" />
 ```
 
-[event.target.name] will be set to "description" and "price" respectively and update
-our state object correctly like so:
+[event.target.name] will be set to "description" and "price" respectively and update our state object correctly like so:
 
 ```
 item: {...prevState.item, description: value}

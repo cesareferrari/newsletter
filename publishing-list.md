@@ -6,7 +6,7 @@ javascript/
 
 - [x] 20190902-function-declarations.md
 - [x] 20190903-function-expressions.md
-- [ ] 20190904-arrow-functions.md
+- [x] 20190904-arrow-functions.md
 - [ ] 20190905-function-parameters.md
 - [ ] 20190906-this-parameter.md
 - [ ] 20190907-arguments-parameter.md
