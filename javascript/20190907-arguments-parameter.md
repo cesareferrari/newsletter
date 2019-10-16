@@ -1,5 +1,5 @@
-## The arguments parameter in Javascript
-### All the arguments passed to a function are accessible with the arguments parameter
+# The arguments parameter in Javascript
+## All the arguments passed to a function are accessible with the arguments parameter
 
 The arguments parameter is a collection of all the arguments passed to a function when it's invoked. It allows us to access all the arguments passed to a function, even the ones not listed in the parameter list.
 
