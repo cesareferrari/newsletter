@@ -1,4 +1,4 @@
-## Updating an item with React
+# Updating an item with React
 ## How to make a PUT request to a remote server with Axios
 
 
@@ -41,9 +41,7 @@ All editItem does is prevent default and add an element to the Route history obj
 
 The code above uses string interpolation to print out the item id that's needed by the URL.
 
-This page component already has a state object with all the
-item details, so all we have to do is grab the id and put it into the path with
-`this.state.id`.
+This page component already has a state object with all the item details, so all we have to do is grab the id and put it into the path with `this.state.id`.
 
 We defined a URL that handles edits, but we still don't have a route for it, so we can create one in App.js
 
@@ -55,7 +53,7 @@ We defined a URL that handles edits, but we still don't have a route for it, so 
 />
 ```
 
-It renders the ItemEditForm component which displays the actual edit form.
+This route renders the ItemEditForm component which displays the actual edit form.
 
 In this Route props we also pass down the updateItem function. This function is defined in App.js and is responsible for handling the call to Axios for the update.
 
@@ -82,6 +80,13 @@ In addition to passing the correct URL, we also need to pass the actual item obj
 If everything goes well, the Axios call will return back to us an array with all the items, including the updated item. We only have to update our state with setState to reflect these changes.
 
 Next, we need to create the Edit form so we can make changes to the items. We will look at the form in tomorrow's article.
+
+---
+
+I write daily about web development. If you like this article, feel free to share it with your friends and colleagues. 
+
+You can receive articles like this in your inbox by subscribing to this newsletter. Just click the button below to sign up for a free subscription.
+
 
 
 

@@ -10,7 +10,7 @@ javascript/
 - [x] 20190905-function-parameters.md
 - [x] 20190906-this-parameter.md
 - [x] 20190907-arguments-parameter.md
-- [ ] 20190908-this-parameter.md
+- [x] 20190908-this-parameter.md
 - [ ] 20190909-method-invocation.md
 - [ ] 20190910-functions-constructor.md
 - [ ] 20190911-call-apply.md
