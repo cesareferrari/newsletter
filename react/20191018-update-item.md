@@ -86,7 +86,3 @@ Next, we need to create the Edit form so we can make changes to the items. We wi
 I write daily about web development. If you like this article, feel free to share it with your friends and colleagues. 
 
 You can receive articles like this in your inbox by subscribing to this newsletter. Just click the button below to sign up for a free subscription.
-
-
-
-
