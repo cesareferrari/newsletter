@@ -1,4 +1,4 @@
-# Using for loop to output a factorial of an integer
+# Using a for loop to output a factorial
 ## How to iterate in Javascript
 
 One way to use a for loop in Javascript is to calculate a factorial of an integer.
