@@ -13,12 +13,12 @@ javascript/
 - [x] 20190908-this-parameter.md
 - [x] 20190909-functions-invoked-method.md
 - [x] 20190910-functions-invoked-constructor.md
-- [ ] 20190911-call-apply.md
+- [x] 20190911-call-apply.md
 
 
 react/
 
-- [ ] 20190912-jsx.md
+- [x] 20190912-jsx.md
 - [ ] 20190913-create-react-app.md
 - [ ] 20190914-functional-components.md
 - [ ] 20190915-react-state.md
