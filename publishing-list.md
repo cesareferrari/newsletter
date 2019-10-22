@@ -19,7 +19,7 @@ javascript/
 react/
 
 - [x] 20190912-jsx.md
-- [ ] 20190913-create-react-app.md
+- [x] 20190913-create-react-app.md
 - [ ] 20190914-functional-components.md
 - [ ] 20190915-react-state.md
 - [ ] 20190916-props.md
