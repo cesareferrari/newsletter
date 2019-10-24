@@ -21,7 +21,7 @@ react/
 - [x] 20190912-jsx.md
 - [x] 20190913-create-react-app.md
 - [x] 20190914-functional-components.md
-- [ ] 20190915-react-state.md
+- [x] 20190915-react-state.md
 - [ ] 20190916-props.md
 - [ ] 20190917-iteration.md
 - [ ] 20190918-class-components.md
