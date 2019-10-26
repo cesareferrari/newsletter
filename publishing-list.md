@@ -6,23 +6,23 @@ javascript/
 
 - [x] 20190902-function-declarations.md
 - [x] 20190903-function-expressions.md
-- [ ] 20190904-arrow-functions.md
-- [ ] 20190905-function-parameters.md
-- [ ] 20190906-this-parameter.md
-- [ ] 20190907-arguments-parameter.md
-- [ ] 20190908-this-parameter.md
-- [ ] 20190909-method-invocation.md
-- [ ] 20190910-functions-constructor.md
-- [ ] 20190911-call-apply.md
+- [x] 20190904-arrow-functions.md
+- [x] 20190905-function-parameters.md
+- [x] 20190906-this-parameter.md
+- [x] 20190907-arguments-parameter.md
+- [x] 20190908-this-parameter.md
+- [x] 20190909-functions-invoked-method.md
+- [x] 20190910-functions-invoked-constructor.md
+- [x] 20190911-call-apply.md
 
 
 react/
 
-- [ ] 20190912-jsx.md
-- [ ] 20190913-create-react-app.md
-- [ ] 20190914-functional-components.md
-- [ ] 20190915-react-state.md
-- [ ] 20190916-props.md
+- [x] 20190912-jsx.md
+- [x] 20190913-create-react-app.md
+- [x] 20190914-functional-components.md
+- [x] 20190915-react-state.md
+- [x] 20190916-props.md
 - [ ] 20190917-iteration.md
 - [ ] 20190918-class-components.md
 - [ ] 20190919-update-from-input.md
@@ -49,3 +49,4 @@ react/
 - [ ] 20191010-promises.md
 - [ ] 20191011-axios.md
 - [ ] 20191012-error-message.md
+
