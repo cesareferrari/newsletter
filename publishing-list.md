@@ -25,7 +25,7 @@ react/
 - [x] 20190916-props.md
 - [x] 20190917-iteration.md
 - [x] 20190918-class-components.md
-- [ ] 20190919-update-from-input.md
+- [x] 20190919-update-from-input.md
 - [ ] 20190920-submit-form.md
 - [ ] 20190921-add-grocery.md
 - [ ] 20190922-class-method.md
