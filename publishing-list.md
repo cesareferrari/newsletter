@@ -27,7 +27,7 @@ react/
 - [x] 20190918-class-components.md
 - [x] 20190919-update-from-input.md
 - [x] 20190920-submit-form.md
-- [ ] 20190921-add-grocery.md
+- [x] 20190921-add-grocery.md
 - [ ] 20190922-class-method.md
 - [ ] 20190922-multiple-input.md
 - [ ] 20190924-class-method.md
