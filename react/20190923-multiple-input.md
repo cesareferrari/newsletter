@@ -2,6 +2,7 @@
 ## How to write a function that updates state from multiple fields in a React form
 
 
+
 We have already seen how to update state from a form input field.
 As a quick recap: we have a Student component with this initial state:
 
