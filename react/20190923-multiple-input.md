@@ -1,6 +1,7 @@
 # Update state from multiple input fields
 ## How to write a function that updates state from multiple fields in a React form
 
+cover_image: https://ferrariwebdevelopment.s3.us-east-2.amazonaws.com/assets/20190923-multiple-input.jpeg
 
 
 We have already seen how to update state from a form input field.
@@ -25,7 +26,7 @@ And we have a text input field so we can enter the name:
 />
 ```
 
-When we enter a name in our input, a changeHandler() function is called that updates state for this field:
+When we type in a name in our input, a `changeHandler()` function is called that updates state for this field:
 
 ```
 changeHandler = event => {
@@ -36,7 +37,7 @@ changeHandler = event => {
 So far, so good.
 What if we want to add another field to set the student age?
 
-First we need to initialize age in the state:
+First we need to initialize `age` in the state:
 
 ```
 class Student extends React.Component {
@@ -47,7 +48,7 @@ class Student extends React.Component {
 }
 ```
 
-And then we add a text field for age:
+And then we add a text field for `age`:
 
 ```
 <input
@@ -58,13 +59,11 @@ And then we add a text field for age:
 />
 ```
 
-If we try our form now, it won't update the state correctly because our changeHandler() function is hardcoded to only use the name input field and update the name property of the state.
+If we try our form now, it won't update the state correctly because our `changeHandler()` function is hardcoded to only use the `name` input field and update the `name` property of the state.
+We need to make our function more *generic* so it can handle an unlimited number of input fields with unique names.
 
-We need to make our function more generic so it can handle an unlimited number of input fields with unique names.
-
-Our input fields have a property called name that is set to name and age respectively for each field.
-
-The value of this name property is captured in event.target.name.  We can use this value to update the corresponding property in the state like so:
+Our input fields have a property called `name` that is set to *name* and *age* respectively for each field.
+The value of this `name` property is captured in `event.target.name`. We can use this value to update the corresponding property in the state like so:
 
 ```
 changeHandler = event => {
@@ -73,5 +72,4 @@ changeHandler = event => {
 ```
 
 In order to evaluate the target name on the left side of the colon in the state object, we need to enclose the expression in square brackets.
-This will evaluate to name or age depending on which field we are updating, and will in turn update the state object correctly.
-
+This expression will evaluate to `name` or `age` depending on which field we are updating, and will in turn update the `state` object correctly.

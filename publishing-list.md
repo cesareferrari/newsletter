@@ -29,7 +29,7 @@ react/
 - [x] 20190920-submit-form.md
 - [x] 20190921-add-grocery.md
 - [x] 20190922-class-method.md
-- [ ] 20190923-multiple-input.md
+- [x] 20190923-multiple-input.md
 - [ ] 20190924-class-method.md
 - [ ] 20190925-css-class-name.md
 - [ ] 20190926-updating-property.md
