@@ -32,7 +32,7 @@ react/
 - [x] 20190923-multiple-input.md
 - [x] 20190924-passing-methods-props.md
 - [x] 20190925-conditional-css-class-name.md
-- [ ] 20190926-updating-property.md
+- [x] 20190926-updating-property.md
 - [ ] 20190927-prop-types.md
 - [ ] 20190928-prop-types.md
 - [ ] 20190929-lifecycle-methods.md
