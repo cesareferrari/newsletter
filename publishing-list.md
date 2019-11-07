@@ -33,8 +33,8 @@ react/
 - [x] 20190924-passing-methods-props.md
 - [x] 20190925-conditional-css-class-name.md
 - [x] 20190926-updating-property.md
-- [ ] 20190927-prop-types.md
-- [ ] 20190928-prop-types.md
+- [x] 20190927-prop-types1.md
+- [ ] 20190928-prop-types2.md
 - [ ] 20190929-lifecycle-methods.md
 - [ ] 20190930-component-did-update.md
 - [ ] 20191001-fetch-from-api.md
@@ -49,4 +49,23 @@ react/
 - [ ] 20191010-promises.md
 - [ ] 20191011-axios.md
 - [ ] 20191012-error-message.md
-
+- [ ] 20191013-add-item.md
+- [ ] 20191014-input-field-updates.md
+- [ ] 20191015-form-submit.md
+- [ ] 20191016-add-item.md
+- [ ] 20191017-page-redirect.md
+- [ ] 20191018-update-item.md
+- [ ] 20191019-update-item.md
+- [ ] 20191024-redux-store.md
+- [ ] 20191025-redux-provider.md
+- [ ] 20191026-reducers.md
+- [ ] 20191027-actions.md
+- [ ] 20191028-connect.md
+- [ ] 20191029-connect2.md
+- [ ] 20191030-mapstatetoprops.md
+- [ ] 20191031-combined-reducers.md
+- [ ] 20191101-middleware.md
+- [ ] 20191104-redux-middleware.md
+- [ ] 20191105-nasa-photo1.md
+- [ ] 20191106-nasa-photo2.md
+- [ ] 20191107-nasa-photo3.md
