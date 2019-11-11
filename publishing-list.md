@@ -35,7 +35,7 @@ react/
 - [x] 20190926-updating-property.md
 - [x] 20190927-prop-types1.md
 - [x] 20190928-prop-types2.md
-- [ ] 20190929-lifecycle-methods.md
+- [x] 20190929-lifecycle-methods.md
 - [ ] 20190930-component-did-update.md
 - [ ] 20191001-fetch-from-api.md
 - [ ] 20191002-higher-order.md
