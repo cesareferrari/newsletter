@@ -1,6 +1,11 @@
 # How to handle a GET request with Express
 ## We use an Express route handler to send a response back to the client
 
+tagged_headline: Using an Express route handler to respond to a GET request #nodejs #expressjs #backend #webdev #javascript #LambdaSchool
+
+
+
+
 If you followed along with the [previous article](https://cesare.substack.com/p/back-end-api-development-with-nodejs), you now have a server listening on port 4000, but doing little else.
 
 In this article we are going to use our server object to handle requests for the root document and to send back a response.
