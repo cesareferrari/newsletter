@@ -1,5 +1,9 @@
 # Working with a data model
-## Creating an Express API that returns data from a database
+##  
+
+tagged_headline: Creating an API that returns data from a database with Express #nodejs #expressjs #backend #webdev #javascript #LambdaSchool
+
+
 
 To better learn about the Express.js library we are building an API.
 
