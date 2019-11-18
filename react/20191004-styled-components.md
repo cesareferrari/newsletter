@@ -1,15 +1,17 @@
 # How to use Styled Components in React
 ## Add custom, dynamic CSS styles inside your React Components
 
-Yesterday we talked about ReactStrap and how that library makes it quick and easy to bootstrap a React application by importing components that are already styled.
+cover_image: https://ferrariwebdevelopment.s3.us-east-2.amazonaws.com/assets/20191004-styled-components.jpeg
+
+Yesterday we talked about `ReactStrap` and how that library makes it quick and easy to bootstrap a React application by importing components that are already styled.
 
 This may not be a good solution in all cases, though. What if you really need to add custom styles to your application?
 
 If you want to keep control on your CSS styling but at the same time want the flexibility and dynamicity of Javascript, you may want to consider Styled Components.
 
+Styled Components is a library that gives you a way to create your own styles inside a Javascript component.
 
-Styled components is a way to create your own styles inside a Javascript component.
-This works differently from ReactStrap, in the way that it lets you define your own styles for components inside the Javascript files.
+This works differently than ReactStrap, in the way that it lets you define your own styles for components inside the Javascript files.
 
 To use Styled Components we first need to install the library with this syntax:
 
@@ -24,13 +26,12 @@ import styled from 'styled-components';
 ```
 
 Now we are ready to used Styled Components.
+In the example below, we create a `StyledButton` component.
 
-In the example below, we create a StyledButton component. 
-StyledButton is assigned the result of a function call styled.button
+`StyledButton` is assigned the result of a function call to `styled.button`
+The call to `styled.button` is followed by backticks. In this context, backticks are a way to use a construct called *tagged template literal* which is a fancy way to pass arguments into a function.
 
-The call to styled.button is followed by backticks. In this context, backticks are a way to use a construct called tagged template literal which is a fancy way to pass arguments to a function.
-
-Inside the backticks we define the css styles for this button:
+Inside the backticks we define the CSS styles for this button:
 
 ```
 const StyledButton = styled.button`
@@ -42,7 +43,7 @@ const StyledButton = styled.button`
 `
 ```
 
-When we render the StyledButton component it will have the styles we have defined above.
+When we render the `StyledButton` component it will have the styles we have defined above.
 
 ```
 render(
@@ -53,8 +54,8 @@ render(
 ```
 
 Inside the backticks we can also add Javascript code that performs dynamic actions.
-Below we extend the CSS for StyledButton with some Javascript code that looks at the props we pass into the component and adds extra CSS based on some condition:
- 
+Below we extend the CSS for `StyledButton` with some Javascript code that looks at the props we pass into the component and adds extra CSS based on some condition:
+
 ```
 const StyledButton = styled.button`
   background-color: transparent;
@@ -72,15 +73,15 @@ const StyledButton = styled.button`
 `
 ```
 
-This is saying: if we have props.primary passed into this component, then add that extra css.
+This is saying: if we have `props.primary` passed into this component, then change the background color.
 
-To make this work, we need to pull in css, which is a function exported from styled-components, so we need to have this import directive at the top of our file:
+To make this work, we need to pull in the `css` function, which is made available from `styled-components`, so we need to have this import directive at the top of our file:
 
 ```
 import styled, { css } from 'styled-components';
 ```
 
-With Styled Components you can also use SASS syntax and nest the elements:
+With Styled Components you can also use `SASS` syntax and nest the elements:
 
 ```
 &:hover {
@@ -89,10 +90,10 @@ With Styled Components you can also use SASS syntax and nest the elements:
 }
 ```
 
-We can extend those styled components by passing the original component to the styled function. The styled function is a high order function that takes a component and returns another component, adding to it the extended styles that we defined.
+We can extend those styled components by passing the original component to the `styled` function. The `styled` function is a high order function that takes a component and returns another component, adding to it the extended styles that we defined.
 
-As a quick example of this feature, in the code below we are defining a TomatoButton component that takes the styles from StyledButton and extends them with extra styles. 
-We then use TomatoButton in our code. Remember, we need to import styled from styled-components for this to work.
+As a quick example of this feature, in the code below we are defining a `TomatoButton` component that takes the styles from `StyledButton` and extends them with extra styles.
+We then use `TomatoButton` in our code. Remember, we need to import `styled` from `styled-components` for this to work.
 
 ```
 import styled from 'styled-components';
@@ -104,3 +105,5 @@ const TomatoButton = styled(StyledButton)`
 ```
 
 You can read more about Styled Components on their homepage: https://www.styled-components.com
+
+If you like this article and want to receive more in your inbox, just click the button below to sign up for a free subscription.

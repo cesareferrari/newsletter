@@ -40,7 +40,7 @@ react/
 - [x] 20191001-fetch-from-api.md
 - [x] 20191002-higher-order.md
 - [x] 20191003-reactstrap.md
-- [ ] 20191004-styled-components.md
+- [x] 20191004-styled-components.md
 - [ ] 20191005-router.md
 - [ ] 20191006-links.md
 - [ ] 20191007-pass-props-to-route.md
