@@ -1,6 +1,10 @@
 # Building an API with Express and Node.js
 ## Test HTTP requests to an API endpoint using Insomnia
 
+tagged_headline: Test HTTP requests to an API endpoint using Insomnia #nodejs #expressjs #backend #webdev #javascript #LambdaSchool
+
+
+
 In previous articles we started building an API with Node.js and Express that can read and write to a database.
 
 We have seen how we can easily test the reading operation with a web browser, since reading is associated with a GET request that web browsers do by default.

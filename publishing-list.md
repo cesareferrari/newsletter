@@ -42,7 +42,7 @@ react/
 - [x] 20191003-reactstrap.md
 - [x] 20191004-styled-components.md
 - [x] 20191005-router.md
-- [ ] 20191006-links.md
+- [x] 20191006-links.md
 - [ ] 20191007-pass-props-to-route.md
 - [ ] 20191008-history-prop.md
 - [ ] 20191009-promises-intro.md
