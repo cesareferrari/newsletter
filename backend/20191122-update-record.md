@@ -1,6 +1,9 @@
 # Working with a REST API
 ## How to update records in a database with a PUT request.
 
+tagged_headline: How to update records in a database by sending a PUT request to a REST API #nodejs #expressjs #backend #webdev #javascript #LambdaSchool
+
+
 Updating a record in a database using a REST API is similar to creating a new record.
 
 Both operations involve making an HTTP request that sends along some sort of data.

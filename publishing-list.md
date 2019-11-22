@@ -44,7 +44,7 @@ react/
 - [x] 20191005-router.md
 - [x] 20191006-links.md
 - [x] 20191007-pass-props-to-route.md
-- [ ] 20191008-history-prop.md
+- [x] 20191008-history-prop.md
 - [ ] 20191009-promises-intro.md
 - [ ] 20191010-promises.md
 - [ ] 20191011-axios.md
