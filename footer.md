@@ -6,8 +6,6 @@ You can receive articles like this in your inbox by [subscribing to my newslette
 
 
 
-
-
 ## Substack
 
 Did you like this article?  Share it with your friends. 
@@ -21,5 +19,11 @@ https://twitter.com/CesareFerrari
 
 
 ## Twitter - Linkedin - Facebook
+
+[
+    Adding a link to substack doesn't work in Linkedin. 
+    Seems to work in Facebook. 
+    Not sure about Twitter.
+]
 
 For more articles like this subscribe here: https://cesare.substack.com
