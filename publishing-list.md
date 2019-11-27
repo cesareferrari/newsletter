@@ -47,7 +47,7 @@ react/
 - [x] 20191008-history-prop.md
 - [x] 20191009-promises-intro.md
 - [x] 20191010-promises.md
-- [ ] 20191011-axios.md
+- [x] 20191011-axios.md
 - [ ] 20191012-error-message.md
 - [ ] 20191013-add-item.md
 - [ ] 20191014-input-field-updates.md
