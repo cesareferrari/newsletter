@@ -1,9 +1,12 @@
 ## Dev.to
 
-I write daily about web development. If you like this article, feel free to share it with your friends and colleagues.
+---
 
-You can receive articles like this in your inbox by [subscribing to my newsletter](https://cesare.substack.com). 
+*I write daily about web development. If you like this article, feel free to share it with your friends and colleagues.*
 
+*You can receive articles like this in your inbox by [subscribing to my newsletter](https://cesare.substack.com).* 
+
+---
 
 
 ## Substack

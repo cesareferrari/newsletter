@@ -48,7 +48,7 @@ react/
 - [x] 20191009-promises-intro.md
 - [x] 20191010-promises.md
 - [x] 20191011-axios.md
-- [ ] 20191012-error-message.md
+- [x] 20191012-error-message.md
 - [ ] 20191013-add-item.md
 - [ ] 20191014-input-field-updates.md
 - [ ] 20191015-form-submit.md
