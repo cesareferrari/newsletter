@@ -49,7 +49,7 @@ react/
 - [x] 20191010-promises.md
 - [x] 20191011-axios.md
 - [x] 20191012-error-message.md
-- [ ] 20191013-add-item.md
+- [x] 20191013-add-item.md
 - [ ] 20191014-input-field-updates.md
 - [ ] 20191015-form-submit.md
 - [ ] 20191016-add-item.md
