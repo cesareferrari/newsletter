@@ -50,7 +50,7 @@ react/
 - [x] 20191011-axios.md
 - [x] 20191012-error-message.md
 - [x] 20191013-add-item.md
-- [ ] 20191014-input-field-updates.md
+- [x] 20191014-input-field-updates.md
 - [ ] 20191015-form-submit.md
 - [ ] 20191016-add-item.md
 - [ ] 20191017-page-redirect.md
