@@ -1,4 +1,8 @@
-# Data persistence with relational databases
+# API data persistence with relational databases
+## Ordering and limiting data in an SQL database query
+
+tagged_headline: Ordering and limiting data in an SQL database query #sql #database #webdev #backend
+
 
 
 In our previous article we have started introducing some database query done with the SQL language. 

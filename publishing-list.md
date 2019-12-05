@@ -53,7 +53,7 @@ react/
 - [x] 20191014-input-field-updates.md
 - [x] 20191015-form-submit.md
 - [x] 20191016-add-item.md
-- [ ] 20191017-page-redirect.md
+- [x] 20191017-page-redirect.md
 - [ ] 20191018-update-item.md
 - [ ] 20191019-update-item.md
 - [ ] 20191024-redux-store.md
