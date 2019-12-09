@@ -55,7 +55,7 @@ react/
 - [x] 20191016-add-item.md
 - [x] 20191017-page-redirect.md
 - [x] 20191018-update-item.md
-- [ ] 20191019-update-item.md
+- [x] 20191019-update-item.md
 - [ ] 20191024-redux-store.md
 - [ ] 20191025-redux-provider.md
 - [ ] 20191026-reducers.md
