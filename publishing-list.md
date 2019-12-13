@@ -59,7 +59,7 @@ react/
 - [x] 20191020-for-loops.md
 - [x] 20191021-iterations-factorials.md
 - [x] 20191022-triangle-of-asterisks.md
-- [ ] 20191023-while-loop.md
+- [x] 20191023-while-loop.md
 - [ ] 20191024-redux-store.md
 - [ ] 20191025-redux-provider.md
 - [ ] 20191026-reducers.md
