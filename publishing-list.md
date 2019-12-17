@@ -61,7 +61,7 @@ react/
 - [x] 20191022-triangle-of-asterisks.md
 - [x] 20191023-while-loop.md
 - [x] 20191024-redux-store.md
-- [ ] 20191025-redux-provider.md
+- [x] 20191025-redux-provider.md
 - [ ] 20191026-reducers.md
 - [ ] 20191027-actions.md
 - [ ] 20191028-connect.md

@@ -1,6 +1,11 @@
 # Configuring Knex
 ## How to set up a knexfile to connect Knex to a SQLite3 database.
 
+tagged_headline: Knex configuration for a SQLite3 database #knex #database #api #webdev #backend
+
+
+
+
 Knex is a query builder that supports many types of databases including MySQL, Postgresql, SQLite, and Oracle.
 
 In order to work with all these different databases, Knex uses different npm modules to connect with them.
