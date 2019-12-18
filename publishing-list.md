@@ -62,7 +62,7 @@ react/
 - [x] 20191023-while-loop.md
 - [x] 20191024-redux-store.md
 - [x] 20191025-redux-provider.md
-- [ ] 20191026-reducers.md
+- [x] 20191026-reducers.md
 - [ ] 20191027-actions.md
 - [ ] 20191028-connect.md
 - [ ] 20191029-connect2.md
