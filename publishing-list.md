@@ -63,7 +63,7 @@ react/
 - [x] 20191024-redux-store.md
 - [x] 20191025-redux-provider.md
 - [x] 20191026-reducers.md
-- [ ] 20191027-actions.md
+- [x] 20191027-actions.md
 - [ ] 20191028-connect.md
 - [ ] 20191029-connect2.md
 - [ ] 20191030-mapstatetoprops.md
