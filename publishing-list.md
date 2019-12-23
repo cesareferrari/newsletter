@@ -65,7 +65,7 @@ react/
 - [x] 20191026-reducers.md
 - [x] 20191027-actions.md
 - [x] 20191028-connect.md
-- [ ] 20191029-connect2.md
+- [x] 20191029-connect2.md
 - [ ] 20191030-mapstatetoprops.md
 - [ ] 20191031-combined-reducers.md
 - [ ] 20191101-middleware.md
