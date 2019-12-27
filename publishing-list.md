@@ -68,7 +68,7 @@ react/
 - [x] 20191029-connect2.md
 - [x] 20191030-mapstatetoprops.md
 - [x] 20191031-combined-reducers.md
-- [ ] 20191101-middleware.md
+- [x] 20191101-middleware.md
 - [ ] 20191104-redux-middleware.md
 - [ ] 20191105-nasa-photo1.md
 - [ ] 20191106-nasa-photo2.md
