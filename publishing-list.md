@@ -71,7 +71,7 @@ react/
 - [x] 20191101-middleware.md
 - [x] 20191104-redux-middleware.md
 - [x] 20191105-nasa-photo1.md
-- [ ] 20191106-nasa-photo2.md
+- [x] 20191106-nasa-photo2.md
 - [ ] 20191107-nasa-photo3.md
 - [ ] 20191108-nasa-photo4.md
 - [ ] 20191111-nasa-photo5.md
