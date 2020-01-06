@@ -73,5 +73,5 @@ react/
 - [x] 20191105-nasa-photo1.md
 - [x] 20191106-nasa-photo2.md
 - [x] 20191107-nasa-photo3.md
-- [ ] 20191108-nasa-photo4.md
+- [x] 20191108-nasa-photo4.md
 - [ ] 20191111-nasa-photo5.md
