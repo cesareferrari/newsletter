@@ -80,7 +80,7 @@ react/
 backend/
 
 - [x] 20191112-backend-api.md
-- [ ] 20191113-express-server.md
+- [x] 20191113-express-server.md
 - [ ] 20191114-handle-get.md
 - [ ] 20191115-data-model.md
 - [ ] 20191118-read-data.md
