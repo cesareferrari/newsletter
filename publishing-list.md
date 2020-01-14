@@ -83,7 +83,7 @@ backend/
 - [x] 20191113-express-server.md
 - [x] 20191114-handle-get.md
 - [x] 20191115-data-model.md
-- [ ] 20191118-read-data.md
+- [x] 20191118-read-data.md
 - [ ] 20191119-post-data.md
 - [ ] 20191120-debug-post.md
 - [ ] 20191121-delete-resource.md
