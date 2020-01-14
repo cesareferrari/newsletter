@@ -1,6 +1,8 @@
 # How to validate credentials on log in using bcryptjs
 ## Finding the user and validating the password in an Express application
 
+
+
 tagged_headline: How to validate credentials in an Express application #bcrypt #express #api #webdev #backend
 
 
