@@ -85,7 +85,7 @@ backend/
 - [x] 20191115-data-model.md
 - [x] 20191118-read-data.md
 - [x] 20191119-post-data.md
-- [ ] 20191120-debug-post.md
+- [x] 20191120-debug-post.md
 - [ ] 20191121-delete-resource.md
 - [ ] 20191122-update-record.md
 - [ ] 20191125-express-middleware.md
