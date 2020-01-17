@@ -1,6 +1,7 @@
 # How to manage sessions in an Express application
 ## Configuring session cookies
 
+tagged_headline: How to manage sessions in an Express application: configuring cookies #express #api #authentication #sessions #webdev #backend
 
 In this, and future, articles, we'll show how to work with sessions in Express.
 
