@@ -4,9 +4,9 @@
 
 In this series of articles, our ultimate goal is to authenticate users with sessions in our Express application.
 
-What we have done so far is import the express-session Node library in order to initialize a session object that can be used for authentication.
+What we have done so far is import the `express-session` Node library in order to initialize a `session` object that can be used for authentication.
 
-We used a sessionOptions object to configure various aspects of the cookies that keep track of the session.
+We used a `sessionOptions` object to configure various aspects of the cookies that keep track of the session.
 
 Finally, we registered the session object with the middleware chain by using the server.use(session(sessionOptions)) method, so session is available to all endpoints.
 
