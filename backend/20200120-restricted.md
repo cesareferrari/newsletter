@@ -2,6 +2,10 @@
 ## Using middleware to restrict access to an endpoint
 
 
+tagged_headline: Using middleware to add a session object to the request in an Express application #bcrypt #express #api #authentication #sessions #webdev #backend
+
+
+
 In this series of articles, our ultimate goal is to authenticate users with sessions in our Express application.
 
 What we have done so far is import the `express-session` Node library in order to initialize a `session` object that can be used for authentication.
