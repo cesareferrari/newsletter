@@ -89,7 +89,7 @@ backend/
 - [x] 20191121-delete-resource.md
 - [x] 20191122-update-record.md
 - [x] 20191125-express-middleware.md
-- [ ] 20191126-express-middleware2.md
+- [x] 20191126-express-middleware2.md
 - [ ] 20191127-modify-request.md
 - [ ] 20191128-validate-id.md
 - [ ] 20191129-validate-id-2.md
