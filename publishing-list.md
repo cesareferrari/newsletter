@@ -91,7 +91,7 @@ backend/
 - [x] 20191125-express-middleware.md
 - [x] 20191126-express-middleware2.md
 - [x] 20191127-modify-request.md
-- [ ] 20191128-validate-id.md
+- [x] 20191128-validate-id.md
 - [ ] 20191129-validate-id-2.md
 - [ ] 20191202-heroku1.md
 - [ ] 20191203-heroku2.md
