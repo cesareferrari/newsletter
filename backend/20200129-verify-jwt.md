@@ -65,17 +65,16 @@ module.exports = (req, res, next) => {
   if (token) {
     jwt.verify(token, secret, (err, decodedToken) => {
       if (err) {
-        res.status(401).json(message: "Error decoding token")
+        res.status(401).json({message: "Error decoding token"})
       } else {
         req.decodedJwt = decodedToken;
         next();
       }
-    } else {
-      res.status(401).json(message: "Missing token")
     })
+  } else {
+    res.status(401).json({message: "Missing token"})
   }
-}
-
+};
 ```
 
 Great! By using this code, we don't need to authenticate the user with credentials anymore. We just need to verify that a valid token exists in the authorization header of each request. 
