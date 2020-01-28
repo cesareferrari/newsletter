@@ -93,7 +93,7 @@ backend/
 - [x] 20191127-modify-request.md
 - [x] 20191128-validate-id.md
 - [x] 20191129-validate-id-2.md
-- [ ] 20191202-heroku1.md
+- [x] 20191202-heroku1.md
 - [ ] 20191203-heroku2.md
 - [ ] 20191204-heroku3-deploy.md
 - [ ] 20191205-data-persistence.md
