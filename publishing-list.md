@@ -95,8 +95,8 @@ backend/
 - [x] 20191129-validate-id-2.md
 - [x] 20191202-heroku1.md
 - [x] 20191203-heroku2.md
-- [ ] 20191204-heroku3-deploy.md
-- [ ] 20191205-data-persistence.md
+- [x] 20191204-heroku3-deploy.md
+- [x] 20191205-data-persistence.md
 - [ ] 20191206-databases.md
 - [ ] 20191209-creating-data.md
 - [ ] 20191210-query-builders.md
@@ -118,3 +118,20 @@ backend/
 - [ ] 20200102-find-user.md
 - [ ] 20200103-db-design.md
 - [ ] 20200106-db-design2.md
+- [ ] 20200109-authentication.md
+- [ ] 20200110-hash-password.md
+- [ ] 20200113-hash-format.md
+- [ ] 20200114-validate-password.md
+- [ ] 20200115-restrict-access.md
+- [ ] 20200116-sessions.md
+- [ ] 20200117-session-cookies.md
+- [ ] 20200120-restricted.md
+- [ ] 20200121-restricted2.md
+- [ ] 20200122-logout.md
+- [ ] 20200123-save-session.md
+- [ ] 20200124-jwt.md
+- [ ] 20200127-jwt2.md
+- [ ] 20200128-jwt-after-login.md
+- [ ] 20200129-verify-jwt.md
+- [ ] 20200130-secrets-file.md
+

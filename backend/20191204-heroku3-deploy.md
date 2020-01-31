@@ -3,6 +3,7 @@
 
 tagged_headline: Set up continuous deployment to Heroku from GitHub #heroku #webdev
 
+cover_image: https://ferrariwebdevelopment.s3.us-east-2.amazonaws.com/assets/20191204-heroku3-deploy.jpeg
 
 
 Now that our application is ready to be deployed to Heroku we can make things easy for us by setting up a system of continuous deployment from GitHub.
@@ -15,27 +16,25 @@ As soon as our code is received by GitHub, it will trigger a new automatic deplo
 ### Setting up continuous deployment on Heroku
 
 We first need to sign up for an Heroku account and log in.
-
 In our Heroku dashboard, at the top, we click the button to create a new app.
 
-[heroku1.png]
+![New app](https://ferrariwebdevelopment.s3.us-east-2.amazonaws.com/assets/20191204-heroku3-deploy2.jpeg)
 
 Next we give our app a unique name (names need to be unique across the Heroku platform), and when the application is created we go to the Deploy tab.
 
-Under Deployment method, we select GitHub. If it's the first time we select this option it will prompt prompt us for permission to connect to our GitHub account.
+Under `Deployment method`, we select GitHub. If it's the first time we select this option it will prompt prompt us for permission to connect to our GitHub account.
 
-[heroku2.png]
+![New app](https://ferrariwebdevelopment.s3.us-east-2.amazonaws.com/assets/20191204-heroku3-deploy3.jpeg)
+
 
 Once the GitHub account is connected, we need to pick the repository for the application.
 
-Since our repository may have different branches, Heroku will also ask which branch to connect, under Automatic Deploy.
+Since our repository may have different branches, Heroku will also ask which branch to connect, under `Automatic Deploy`.
 
 It's convenient to be able to choose the branch to deploy since often we may have different different versions of our application, like development, staging, or production, on different branches.
 
-Once we have chosen the branch, we select "Enable Automatic Deploys".  
+Once we have chosen the branch, we select `Enable Automatic Deploys`.
 From now on, when we push to GitHub, Heroku will perform an automatic deploy.
 
 These steps set up the automatic deploy for us, but automatic deploy will be triggered only when we push new code to GitHub.
-
-So, the very first time we set up a new application, we should make a manual deploy, which can be done in the Manual deploy section in the Heroku dashboard.
-
+So, the very first time we set up a new application, we should make a manual deploy, which can be done in the `Manual Deploy `section in the Heroku dashboard.
