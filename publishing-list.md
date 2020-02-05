@@ -99,7 +99,7 @@ backend/
 - [x] 20191205-data-persistence.md
 - [x] 20191206-databases.md
 - [x] 20191209-creating-data.md
-- [ ] 20191210-query-builders.md
+- [x] 20191210-query-builders.md
 - [ ] 20191211-knex-db-call.md
 - [ ] 20191212-knex-get-one.md
 - [ ] 20191213-knex-post.md
