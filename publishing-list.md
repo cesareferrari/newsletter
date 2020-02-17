@@ -105,7 +105,7 @@ backend/
 - [x] 20191213-knex-post.md
 - [x] 20191216-update-record.md
 - [x] 20191217-configuring-knex.md
-- [ ] 20191218-knexfile2.md
+- [x] 20191218-knexfile2.md
 - [ ] 20191219-migrations1.md
 - [ ] 20191220-migrations2.md
 - [ ] 20191223-migrations-rollback.md
