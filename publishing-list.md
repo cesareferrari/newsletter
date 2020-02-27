@@ -111,7 +111,7 @@ backend/
 - [x] 20191223-migrations-rollback.md
 - [x] 20191224-new-migration.md
 - [x] 20191225-seed-data.md
-- [ ] 20191227-table-join.md
+- [x] 20191227-table-join.md
 - [ ] 20191230-join-tables1.md
 - [ ] 20191231-join-tables2.md
 - [ ] 20200101-user-model.md
