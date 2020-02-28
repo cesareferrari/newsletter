@@ -112,7 +112,7 @@ backend/
 - [x] 20191224-new-migration.md
 - [x] 20191225-seed-data.md
 - [x] 20191227-table-join.md
-- [ ] 20191230-join-tables1.md
+- [x] 20191230-join-tables1.md
 - [ ] 20191231-join-tables2.md
 - [ ] 20200101-user-model.md
 - [ ] 20200102-find-user.md
