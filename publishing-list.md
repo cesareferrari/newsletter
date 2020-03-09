@@ -114,7 +114,7 @@ backend/
 - [x] 20191227-table-join.md
 - [x] 20191230-join-tables1.md
 - [x] 20191231-join-tables2.md
-- [ ] 20200101-user-model.md
+- [x] 20200101-user-model.md
 - [ ] 20200102-find-user.md
 - [ ] 20200103-db-design.md
 - [ ] 20200106-db-design2.md
